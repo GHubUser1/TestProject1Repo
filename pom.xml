@@ -7,12 +7,13 @@
 		<developerConnection>scm:git:https://github.com/GHubUser1/TestProject1Repo</developerConnection>
 		<connection>scm:git:https://github.com/GHubUser1/TestProject1Repo</connection>
 		<url>https://github.com/GHubUser1/TestProject1Repo</url>
+    <tag>v--1.0</tag>
   </scm>
 	
 
   <groupId>fr.imiddleware.projets</groupId>
   <artifactId>TestProject1</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <packaging>maven-plugin</packaging>
   
   
