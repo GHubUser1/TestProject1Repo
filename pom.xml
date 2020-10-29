@@ -14,6 +14,9 @@
   <artifactId>TestProject1</artifactId>
   <version>1.0-SANPSHOT</version>
   <packaging>maven-plugin</packaging>
+  
+  
+  
 
   <name>TestProject1</name>
   <!-- FIXME change it to the project's website -->
