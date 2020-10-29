@@ -4,16 +4,15 @@
   <modelVersion>4.0.0</modelVersion>
 
 	<scm>
-		<developerConnection>scm:git:https://github.com/GHubUser1/TestProjectsRepo</developerConnection>
-		<connection>scm:git:https://github.com/GHubUser1/TestProjectsRepo</connection>
-		<url>https://github.com/GHubUser1/TestProjectsRepo</url>
-    <tag>TestProject1-1.0</tag>
+		<developerConnection>scm:git:https://github.com/GHubUser1/TestProject1Repo</developerConnection>
+		<connection>scm:git:https://github.com/GHubUser1/TestProject1Repo</connection>
+		<url>https://github.com/GHubUser1/TestProject1Repo</url>
   </scm>
 	
 
   <groupId>fr.imiddleware.projets</groupId>
   <artifactId>TestProject1</artifactId>
-  <version>1.0</version>
+  <version>1.0-SANPSHOT</version>
   <packaging>maven-plugin</packaging>
 
   <name>TestProject1</name>
