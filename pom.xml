@@ -4,12 +4,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
+	<scm>
+		<developerConnection>scm:git:https://github.com/GHubUser1/TestProjectsRepo</developerConnection>
+		<connection>scm:git:https://github.com/GHubUser1/TestProjectsRepo</connection>
+		<url>https://github.com/GHubUser1/TestProjectsRepo</url>
+  </scm>
 	
-	<parent>
-		<groupId>fr.imiddleware.projets</groupId>
-	  	<artifactId>ParentProject3</artifactId>
-	    <version>1.0-SNAPSHOT</version>
-	</parent>
 
   <groupId>fr.imiddleware.projets</groupId>
   <artifactId>TestProject1</artifactId>
@@ -52,8 +52,19 @@
   </dependencies>
 
   <build>
+  <plugins>
+	<plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+    </plugin>
+   </plugins>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
+	  <plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-release-plugin</artifactId>
+			<version>3.0.0-M1</version>
+		</plugin>
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
