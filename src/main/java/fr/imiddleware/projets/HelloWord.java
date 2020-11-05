@@ -14,5 +14,7 @@ public class HelloWord extends AbstractMojo
     public void execute() throws MojoExecutionException
     {
         getLog().info( "Hello, Maven." );
+        String messageinput = System.getProperty("MessageInput");
+        getLog().info( "Hello,---- ----" + messageinput );
     }
 }
